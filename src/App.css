@@ -1,16 +1,15 @@
-/*.img-resize {
-  width: 200px;
-  height: auto;
-}*/
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 6열로 설정 */
-  grid-template-rows: repeat(6, 1fr); /* 6행으로 설정 */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* 6열로 설정 */
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; /* 6행으로 설정 */
   gap: 0; /* 격자 간격을 0으로 설정 */
 }
 
-.grid-item {
-  width: 200px; /* 그리드 셀에 맞게 이미지 너비를 100%로 설정 */
-  width: 100%;
-  height: auto; /* 이미지의 원본 비율을 유지 */
+.grid-item { 
+  width: 100%; /* 그리드 셀에 맞게 이미지 너비를 100%로 설정 */
+  height: 100%; /* 이미지의 원본 비율을 유지 */
+}
+
+.nav {
+  display: flex;
 }
