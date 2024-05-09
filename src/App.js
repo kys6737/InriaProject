@@ -1,10 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
+
 import './App.css';
 
 import bellingham from './data/bellingham.json';
 import innsbruck from './data/innsbruck.json';
-//파일 이름 맞춰서 계속 import.
+//import example from './date/example.json';
+//☆파일 이름 맞춰서 계속 import.
 
 function App() {
   /* Variables */
@@ -15,10 +17,12 @@ function App() {
       setPlaceState(name);
     };
   }
-  // List
+
+  // ☆List
   const place = [
-    {key: 'bellingham', value: bellingham}, 
+    {key: 'bellingham', value: bellingham},
     {key: 'innsbruck', value: innsbruck}
+    //{key: 'example', value: example}
   ]
 
   /* Function */
